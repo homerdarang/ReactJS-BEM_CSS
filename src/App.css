@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.title {
+  background-color: #305897;
+  color: #aeaeae;
+}

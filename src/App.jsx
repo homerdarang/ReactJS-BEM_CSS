@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className='title'>
-        <p className=''>ReactJS | BEM_CSS</p>
+        <p className='title--text'>ReactJS | CSS_BEM Methodology</p>
       </div>
     </>
   )

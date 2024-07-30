@@ -7,4 +7,11 @@
 .title {
   background-color: #305897;
   color: #aeaeae;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.title--text {
+  font-size: 2rem;
+  text-decoration: underline;
 }

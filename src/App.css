@@ -6,7 +6,7 @@
 
 .title {
   background-color: #305897;
-  color: #aeaeae;
+  color: #ddd;
   text-align: center;
   padding: 20px 10px;
 }
@@ -15,3 +15,35 @@
   font-size: 2rem;
   text-decoration: underline;
 }
+
+/* here id for bem methodology css */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  font-family: 'Helvetica';
+}
+
+.card {
+  padding: 15px;
+  margin: 10px;
+  width: 30%;
+}
+
+.card--light {
+  background-color: #fff;
+  color: #444448;
+}
+
+.card--dark {
+  background-color: #444448;
+}
+
+.card--image {
+  width: 100%;
+}
+

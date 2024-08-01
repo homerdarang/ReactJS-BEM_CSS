@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  font-family: 'Helvetica';
 }
 
 .title {
@@ -25,13 +26,18 @@
   justify-content: center;
   gap: 20px;
   margin: 20px 0;
-  font-family: 'Helvetica';
 }
 
 .card {
   padding: 15px;
   margin: 10px;
   width: 30%;
+  text-align: left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .card--light {
@@ -41,9 +47,29 @@
 
 .card--dark {
   background-color: #444448;
+  color: #fff;
 }
 
 .card--image {
   width: 100%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
 }
 
+.card--title {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.card--body {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+
+.joke {
+  margin: 20px 0;
+}

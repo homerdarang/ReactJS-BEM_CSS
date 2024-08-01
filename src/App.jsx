@@ -6,7 +6,14 @@ import JokeData from './components/joke-data/JokeData';
 function App() {
 
   const jokesData = JokeData.map((joke) => {
-    return <Joke key={joke.id} setup={joke.setup} punchline={joke.punchline} />
+    return <Joke 
+      key={joke.id} 
+      setup={joke.setup} 
+      punchline={joke.punchline} 
+      isPun={joke.isPun}
+      upvotes={joke.upvotes}
+      downvotes={joke.downvotes}
+      />
   });
 
   return (

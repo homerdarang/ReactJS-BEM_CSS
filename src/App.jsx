@@ -1,7 +1,9 @@
 import './App.css'
 import BemMethodology from './components/css-bem-methodology/BemMethodology'
 import Joke from './Joke';
-import JokeData from './components/joke-data/JokeData';
+import JokeData from './components/props-data/JokeData';
+import Card from './components/card/Card';
+
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
         <p className='title--text'>ReactJS | CSS-BEM Methodology</p>
         <BemMethodology />
         {jokesData}
+        <Card />
       </div>
     </>
   )

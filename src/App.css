@@ -73,3 +73,33 @@
 .joke {
   margin: 20px 0;
 }
+
+.cards--img {
+  width: 40%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.extra--light {
+  font-weight: 100;
+}
+
+.card--content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card--grid {
+  display: grid;
+  place-items: center;
+}
+
+.card--info {
+  margin: 10px 0;
+}

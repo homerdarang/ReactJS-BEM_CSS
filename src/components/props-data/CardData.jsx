@@ -1,4 +1,6 @@
 import airBnbimg from '../../assets/img/place.jpg';
+import kitchen from '../../assets/img/kitchen.jpg';
+import room from '../../assets/img/room.jpg';
 export default [
     {
         id: 1,
@@ -11,7 +13,7 @@ export default [
     },
     {
         id: 2,
-        image: airBnbimg,
+        image: kitchen,
         rating: '5.0',
         reviewCounts: 6,
         country: 'Philippines',
@@ -20,7 +22,7 @@ export default [
     },
     {
         id: 3,
-        image: airBnbimg,
+        image: room,
         rating: '5.0',
         reviewCounts: 6,
         country: 'Philippines',

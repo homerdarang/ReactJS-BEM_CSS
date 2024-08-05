@@ -103,3 +103,16 @@
 .card--info {
   margin: 10px 0;
 }
+
+.light--versus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.light--inside {
+  display: grid;
+  place-content: center;
+  align-items: center;
+}

@@ -12,6 +12,7 @@ const CardDisplay = (props) => {
             </div>
             {props.title && <p>{props.title}</p>}
             {props.price && <p className='extra--light'>{props.price} / person</p>}
+            {props.comment && <p className='extra--light'>{props.comment}</p>}
         </div>
     </>
   )

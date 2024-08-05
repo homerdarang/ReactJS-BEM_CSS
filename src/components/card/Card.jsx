@@ -12,6 +12,7 @@ const Card = () => {
             country={datas.country}
             title={datas.title}
             price={datas.price}
+            comment={datas.comment}
         />
     })
 

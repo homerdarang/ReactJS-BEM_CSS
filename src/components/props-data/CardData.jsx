@@ -9,7 +9,8 @@ export default [
         reviewCounts: 6,
         country: 'Philippines',
         title: 'Life lesson with spyda answer',
-        price: 'Php2,000.00'
+        price: 'Php2,000.00',
+        comment: 'The best plan ever in my history travel'
     },
     {
         id: 2,
@@ -18,7 +19,8 @@ export default [
         reviewCounts: 17,
         country: 'Philippines',
         title: 'Best of small and affordable room for week vacation',
-        price: 'Php3,200.00'
+        price: 'Php3,200.00',
+        comment: 'Small yet very fantastic.'
     },
     {
         id: 3,
@@ -27,6 +29,7 @@ export default [
         reviewCounts: 6,
         country: 'Philippines',
         title: 'A native and modern kitchen that everybody is looking for.',
-        price: 'Php4,500.00'
+        price: 'Php4,500.00',
+        comment: 'Its native. Yeah you heard it right. But luxury in style.'
     }
 ]

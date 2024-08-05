@@ -14,13 +14,13 @@ const Card = () => {
             price={datas.price}
             comment={datas.comment}
         />
-    })
+    });
 
   return (
     <div className='card--content'>
       {datasFromCard}
     </div>
-  )
+  );
 }
 
 export default Card

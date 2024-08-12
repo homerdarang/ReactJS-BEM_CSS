@@ -1,6 +1,6 @@
 import './App.css'
 import BemMethodology from './components/css-bem-methodology/BemMethodology'
-import Joke from './Joke';
+import Joke from './components/Joke';
 import JokeData from './components/props-data/JokeData';
 import Card from './components/card/Card';
 import Artists from './components/artists/Artists';

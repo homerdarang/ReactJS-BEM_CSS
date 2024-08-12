@@ -3,6 +3,7 @@ import BemMethodology from './components/css-bem-methodology/BemMethodology'
 import Joke from './Joke';
 import JokeData from './components/props-data/JokeData';
 import Card from './components/card/Card';
+import Artists from './components/artists/Artists';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <BemMethodology />
         {jokesData}
         <Card />
+        <Artists />
       </div>
     </>
   )

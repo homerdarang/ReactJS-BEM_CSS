@@ -1,0 +1,65 @@
+export default [
+    {
+        id: 1,
+        hero_name: 'Thor',
+        superpower: 'Mjolnir',
+        alter_ego: 'Hela',
+        origin: 'Asgard',
+    },
+    {
+        id: 2,
+        hero_name: 'Iron Man',
+        superpower: 'Genius',
+        alter_ego: 'Tony Stark',
+        origin: 'Earth',
+    },
+    {
+        id: 3,
+        hero_name: 'Captain America',
+        superpower: 'Super strength',
+        alter_ego: 'Steve Rogers',
+        origin: 'Earth',
+    },
+    {
+        id: 4,
+        hero_name: 'Hulk',
+        superpower: 'Super strength',
+        alter_ego: 'Bruce Banner',
+        origin: 'Earth',
+    },
+    {
+        id: 5,
+        hero_name: 'Ant Man',
+        superpower: 'Super strength',
+        alter_ego: 'Scott Lang',
+        origin: 'Earth',
+    },
+    {
+        id: 6,
+        hero_name: 'Spider Man',
+        superpower: 'Super strength',
+        alter_ego: 'Peter Parker',
+        origin: 'Earth',
+    },
+    {
+        id: 7,
+        hero_name: 'Black Panther',
+        superpower: 'Super strength',
+        alter_ego: 'T\'Challa',
+        origin: 'Earth',
+    },
+    {
+        id: 8,
+        hero_name: 'Black Widow',
+        superpower: 'Super strength',
+        alter_ego: 'Natasha Romanoff',
+        origin: 'Earth',
+    },
+    {
+        id: 9,
+        hero_name: 'Dr. Strange',
+        superpower: 'Magic Stone',
+        alter_ego: 'Dr. Stephen Strange',
+        origin: 'Multiverse',
+    }
+]
